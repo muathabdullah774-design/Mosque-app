@@ -8,7 +8,6 @@ import 'Session.dart';
 import 'Student.dart';
 import 'Users.dart';
 import 'Reports.dart';
-
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
   @override
