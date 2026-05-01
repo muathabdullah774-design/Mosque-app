@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mouque/MainPage.dart';
+import 'package:mouque/widgets/MainPage.dart';
 
 class Loginpage extends StatefulWidget {
   const Loginpage({super.key});

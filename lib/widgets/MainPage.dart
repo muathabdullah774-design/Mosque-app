@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mouque/AppLayout.dart';
-import 'package:mouque/Circles.dart';
-import 'package:mouque/Home.dart';
-import 'package:mouque/Reports.dart';
-import 'package:mouque/Student.dart';
+import 'package:mouque/models/AppLayout.dart';
+import 'package:mouque/widgets/Circles.dart';
+import 'package:mouque/widgets/Home.dart';
+import 'package:mouque/widgets/Reports.dart';
+import 'package:mouque/widgets/Student.dart';
 
 class Mainpage extends StatefulWidget {
   const Mainpage({super.key});
