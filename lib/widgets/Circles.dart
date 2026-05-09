@@ -9,15 +9,15 @@ class Circles extends StatefulWidget {
 class _CirclesState extends State<Circles> {
 
   List circles = [
-    "Fajr Circle",
-    "Asr Circle",
-    "Maghrib Circle"
+    "حلقة الفاروق",
+    "حلقة الصديق",
+    "حلقة عثمان"
   ];
 
   void addCircle() {
 
     setState(() {
-      circles.add("New Circle");
+      circles.add("حلقة جديده");
     });
 
   }

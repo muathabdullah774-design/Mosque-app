@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mouque/widgets/LoginPage.dart';
 import 'package:mouque/widgets/MainPage.dart';
 
 void main() {
@@ -16,6 +17,6 @@ class _MyAppstate extends State<MyApp>{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-           home: Mainpage(),
+           home: Loginpage(),
     );
   }}

@@ -13,8 +13,6 @@ class Mainpage extends StatefulWidget {
 }
 
 class _MainpageState extends State<Mainpage> {
-  @override
- 
 
   int selctedindex = 0;
 

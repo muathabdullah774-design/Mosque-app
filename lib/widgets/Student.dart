@@ -10,9 +10,9 @@ class Student extends StatefulWidget {
 class _StudentState extends State<Student> {
 
   List students = [
-    "Ahmed",
-    "Mohammed",
-    "Ali"
+    "احمد",
+    "محمد",
+    "علي"
   ];
 
   final controller = TextEditingController();
@@ -43,7 +43,7 @@ class _StudentState extends State<Student> {
             controller: controller,
 
             decoration: const InputDecoration(
-              labelText: "Student Name",
+              labelText: "اسم الطالب",
               border: OutlineInputBorder(),
             ),
 
@@ -53,7 +53,7 @@ class _StudentState extends State<Student> {
 
           ElevatedButton(
             onPressed: addStudent,
-            child: const Text("Add Student"),
+            child: const Text("اضف طالب"),
           ),
 
           const SizedBox(height:20),

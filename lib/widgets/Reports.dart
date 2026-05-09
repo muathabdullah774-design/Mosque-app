@@ -13,19 +13,19 @@ class Reports extends StatelessWidget {
 
         ListTile(
           leading: const Icon(Icons.bar_chart),
-          title: const Text("Students Report"),
+          title: const Text("تقارير الطلاب"),
           onTap: (){},
         ),
 
         ListTile(
           leading: const Icon(Icons.groups),
-          title: const Text("Circles Report"),
+          title: const Text("تقارير الحلقات"),
           onTap: (){},
         ),
 
         ListTile(
           leading: const Icon(Icons.star),
-          title: const Text("Top Students"),
+          title: const Text("افضل الطلاب"),
           onTap: (){},
         ),
 

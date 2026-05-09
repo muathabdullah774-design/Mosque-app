@@ -18,11 +18,11 @@ class AppLayout {
       onTap: onTap ,type: BottomNavigationBarType.fixed,selectedItemColor: Colors.green
       ,unselectedItemColor: Colors.white,showSelectedLabels: false,showUnselectedLabels: false,items: [
 
-        BottomNavigationBarItem(icon:_buildIcon (Icons.dashboard,currentIndex==0),label:"Home"),
-        BottomNavigationBarItem(icon:_buildIcon (Icons.groups,currentIndex==1),label:"Circles"),
-        BottomNavigationBarItem(icon:_buildIcon (Icons.menu_book,currentIndex==2),label:"Session"),
-        BottomNavigationBarItem(icon:_buildIcon  (Icons.book,currentIndex==3),label:"Student"),
-        BottomNavigationBarItem(icon:_buildIcon  (Icons.bar_chart,currentIndex==4),label:"Reports"),
+        BottomNavigationBarItem(icon:_buildIcon (Icons.dashboard,currentIndex==0),label:"الصفحة الرئيسيه"),
+        BottomNavigationBarItem(icon:_buildIcon (Icons.groups,currentIndex==1),label:"الحلقات"),
+        BottomNavigationBarItem(icon:_buildIcon (Icons.menu_book,currentIndex==2),label:"الطلاب"),
+        BottomNavigationBarItem(icon:_buildIcon  (Icons.book,currentIndex==3),label:"تسجيل طالب"),
+        BottomNavigationBarItem(icon:_buildIcon  (Icons.bar_chart,currentIndex==4),label:"التقارير"),
 
       ],);}
 
