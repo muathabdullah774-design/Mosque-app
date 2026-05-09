@@ -11,13 +11,13 @@ class _CirclesState extends State<Circles> {
   List circles = [
     "حلقة الفاروق",
     "حلقة الصديق",
-    "حلقة عثمان"
+    "حلقة عثمان ابن عفان"
   ];
 
   void addCircle() {
 
     setState(() {
-      circles.add("حلقة جديده");
+      circles.add("حلقة جديدة");
     });
 
   }

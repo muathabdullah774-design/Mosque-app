@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mouque/widgets/LoginPage.dart';
-import 'package:mouque/widgets/MainPage.dart';
+
 
 void main() {
   runApp(MyApp());
